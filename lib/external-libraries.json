@@ -3,7 +3,7 @@
     "/python/": {
       "remote": "https://github.com/AdamJelley/elo-ratings",
       "checkout": "refs/heads/master",
-      "remotePath": "/elo_classes"
+      "remotePath": ""
     }
   },
   "pythonPath": [
