@@ -1,8 +1,16 @@
 {
-  "type": "split",
+  "type": "python",
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
-  "params": {},
+  "params": {
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    },
+    "skipPrerunValidate": false
+  },
   "customMeta": {
     "kv": {}
   },
@@ -12,7 +20,7 @@
     "main": {
       "items": [
         {
-          "ref": "Asset_new_informations_scored",
+          "ref": "Assets_at_risk",
           "deps": []
         }
       ]
@@ -22,22 +30,25 @@
     "main": {
       "items": [
         {
-          "ref": "Assets_at_high_priority",
-          "appendMode": false
-        },
-        {
-          "ref": "Assets_at_risk",
+          "ref": "Assets_at_risk_py",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519407865029
+    "lastModifiedOn": 1594222586090
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1594222584508
   },
   "tags": [],
   "customFields": {},
