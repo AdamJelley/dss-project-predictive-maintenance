@@ -3,7 +3,8 @@
     "/python/": {
       "remote": "https://github.com/AdamJelley/elo-ratings",
       "checkout": "refs/heads/master",
-      "remotePath": ""
+      "remotePath": "",
+      "lastHash": "313574e402c90d1f890b6e01e3ade74f66ac5e30"
     }
   },
   "pythonPath": [
